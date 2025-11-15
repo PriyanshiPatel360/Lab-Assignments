@@ -67,7 +67,6 @@ class Student extends Person {
     }
 }
 
-// Interface for CRUD Actions
 interface RecordActions {
     void addStudent(Student s);
     void deleteStudent(int rollNo);
@@ -213,3 +212,4 @@ public class StudentManagementSystem_LAB_Assignment_2 {
         sc.close();
     }
 }
+
